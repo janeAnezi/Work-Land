@@ -1,0 +1,473 @@
+/* work land factory
+##################
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* homepage starts */
+header {
+  background: url("imgs/header.jpg") center/cover no-repeat;
+}
+.homepage-header {
+  display: flex;
+  padding: 1em 2em;
+  justify-content: space-between;
+}
+.header-nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 1em;
+}
+.header-nav li {
+  padding: 0.2em;
+  margin-right: 0.5em;
+}
+.nav-icon {
+  color: white;
+}
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s linear;
+}
+.header-nav a:hover {
+  color: rgb(247, 247, 75);
+}
+.homepage-info {
+  text-align: center;
+  padding-bottom: 4em;
+}
+.homepage-info h1 {
+  font-size: 2.5em;
+  color: white;
+  padding-top: 1em;
+}
+.homepage-info p {
+  color: white;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+.homepage-link {
+  display: flex;
+  justify-content: center;
+}
+.link-readmor {
+  color: white;
+  font-size: 20px;
+  border: 1px solid yellow;
+  padding: 0.5em;
+}
+.link-icon {
+  background: yellow;
+  padding: 0.5em;
+}
+/* homepage ends */
+/* get in touch/ contact section */
+.contact {
+  width: 50%;
+}
+.contact-form {
+  padding: 0.8em;
+  margin: 1em 0;
+  width: 60%;
+  font-size: 15px;
+  margin-left: 5em;
+}
+.contact-textarea {
+  height: 60px;
+  font-size: 15px;
+}
+.contact-info {
+  display: flex;
+}
+.contact img {
+  height: 400px;
+}
+.contact button {
+  padding: 0.5em 1em;
+  font-size: 20px;
+  margin-left: 5em;
+}
+.contact-background {
+  background-color: yellow;
+}
+fieldset {
+  border: none;
+}
+/* about section */
+.about-info {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+.about-img img {
+  width: 500px;
+}
+.about-text {
+  text-align: right;
+  margin-right: 3em;
+}
+.about-text h1 {
+  font-size: 35px;
+}
+.about-text h3 {
+  font-size: 25px;
+}
+.about-text p {
+  font-size: 15px;
+  line-height: 14px;
+  padding-bottom: 2em;
+}
+.about-link {
+  display: flex;
+  justify-content: flex-end;
+}
+.about-link a {
+  color: black;
+}
+/* services section */
+.services h2,
+.get-intouch h1 {
+  font-size: 40px;
+  margin-left: 2em;
+}
+.our-services__info {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(233, 232, 232, 0.932);
+  padding-top: 1em;
+  padding-left: 3em;
+}
+.service-info {
+  margin: 1em;
+  width: 30%;
+}
+.service-info img {
+  width: 100%;
+}
+.service-info p {
+  line-height: 25px;
+  font-size: 18px;
+}
+.service-info h3 {
+  font-size: 25px;
+}
+.service-link {
+  display: flex;
+  justify-content: flex-end;
+}
+.service-link a {
+  color: black;
+}
+/* project section */
+.project-section h2 {
+  font-size: 40px;
+  margin-left: 2em;
+}
+.projects img {
+  width: 250px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  justify-content: center;
+}
+.img-col {
+  margin: 2em 1em;
+  padding: 2em 0;
+}
+.img-col img {
+  width: 380px;
+}
+.smaller-img {
+  height: 75%;
+}
+.center-img {
+  margin-top: 3em;
+  padding-top: 2em;
+}
+/* project section */
+/* testimonial section */
+.testimonial h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.testimonial-body {
+  background: black;
+  padding: 2em 0;
+}
+.testimonial-helina {
+  display: flex;
+  width: 90%;
+  margin-left: 0.8em;
+}
+.extra-padding {
+  margin-left: 1em;
+  padding-left: 2em;
+  justify-content: center;
+}
+.helina-image img {
+  width: 180px;
+  padding-top: 2em;
+  margin-right: 1em;
+}
+.helena-info {
+  padding-top: 1em;
+  color: white;
+  width: 70%;
+}
+.helena-info h4 {
+  font-size: 25px;
+}
+/* testimonial section ends */
+/* footer section */
+.footer-section {
+  background-color: rgb(41, 40, 40);
+  color: white;
+  width: 100%;
+}
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1em;
+  padding: 1em;
+  justify-content: flex-end;
+}
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em 1.5em;
+  background-color: black;
+}
+.location-icon {
+  font-size: 35px;
+  margin-right: 0.5em;
+}
+.location-place {
+  font-size: 20px;
+}
+.footer-lists {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: center;
+}
+.factory-list {
+  padding: 0 1.5em;
+  width: 20%;
+}
+.factory-list h4 {
+  font-size: 25px;
+}
+.factory-list p {
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 100;
+}
+.footer-ul {
+  line-height: 30px;
+  list-style-type: square;
+  font-size: 19px;
+}
+.footer-ul li {
+  color: rgb(247, 247, 75);
+}
+.footer-ul a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+}
+.footer-ul a:hover {
+  color: rgb(247, 247, 75);
+}
+.factory-list input {
+  padding: 0.5em 1em;
+  font-size: 15px;
+}
+.factory-list button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: rgb(247, 247, 75);
+  border: none;
+}
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2em;
+}
+.footer-icons div {
+  margin-right: 1em;
+  padding: 0.5em;
+  font-size: 30px;
+  transition: all 0.2s linear;
+}
+.footer-icons div:hover {
+  color: rgb(247, 247, 75);
+}
+.copy-right {
+  text-align: center;
+  padding: 2em;
+  border-top: 1px solid white;
+  width: 80%;
+  margin-left: 2.5em;
+  font-size: 20px;
+}
+/* footer section ends */
+/* responsiveness */
+@media (max-width: 978px) {
+  ul {
+    flex-direction: column;
+  }
+  .header-logo {
+    width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .homepage-header {
+    padding: 1em 0.5em;
+    width: 58%;
+  }
+  .header-logo {
+    width: 270px;
+    padding-top: 1em;
+  }
+  .homepage-info p {
+    line-height: 1em;
+    font-size: 20px;
+    width: 95%;
+  }
+  .homepage-info h1 {
+    font-size: 2.8em;
+    padding-top: 0.5em;
+  }
+  .homepage-info {
+    width: 60%;
+  }
+}
+@media (max-width: 991px) {
+  .about-info {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .service-info {
+    width: 80%;
+  }
+}
+@media (max-width: 991px) {
+  .project-section {
+    width: 100%;
+  }
+  .projects {
+    width: 98%;
+  }
+  .img-col {
+    margin: 0 1em;
+    padding: 0.5em 0;
+  }
+  .smaller-img {
+    padding-top: 1em;
+    height: 90%;
+  }
+  .center-img {
+    margin-top: 0.2em;
+    padding-top: 0.2em;
+  }
+  .contact img {
+    width: 95%;
+  }
+  .contact-info {
+    flex-direction: column;
+  }
+  .contact {
+    width: 100%;
+  }
+}
+@media (max-width: 989px) {
+  .contact-icons {
+    justify-content: center;
+    margin: none;
+  }
+  .factory-list {
+    width: 42%;
+  }
+}
+@media (max-width: 630px) {
+  .factory-list {
+    width: 90%;
+  }
+  .factory-list h4 {
+    font-size: 30px;
+  }
+  .factory-list p {
+    font-size: 22px;
+  }
+  .footer-ul {
+    font-size: 22px;
+  }
+  .copy-right {
+    width: 60%;
+  }
+  .footer-icons div {
+    font-size: 25px;
+  }
+  .footer-icons {
+    justify-content: center;
+    margin-right: 1em;
+  }
+}
+@media (max-width: 418px) {
+  .header-nav {
+    display: none;
+  }
+  .homepage-info {
+    width: 98%;
+  }
+  .about-img img {
+    width: 100%;
+    text-align: center;
+  }
+  .testimonial-helina {
+    flex-direction: column;
+  }
+  .helina-image img {
+    width: 70%;
+  }
+  .helena-info {
+    font-size: 25px;
+    width: 90%;
+  }
+  .img-col img {
+    width: 100%;
+  }
+  .about-info {
+    width: 100%;
+  }
+  .about-text {
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+  }
+  .projects {
+    width: 100%;
+  }
+  .contact img {
+    width: 100%;
+  }
+  .copy-right {
+    margin-bottom: 0;
+  }
+}
