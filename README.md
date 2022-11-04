@@ -1,2 +1,2 @@
-# Work-Land
-My clone of work land web App with HTML5 and CSS3
+# WorkLand
+Buisness web app with HTML5 and CSS3
